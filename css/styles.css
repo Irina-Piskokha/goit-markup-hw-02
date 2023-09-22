@@ -1,4 +1,9 @@
 :root {
+    --primary-font: 'Roboto', sans-serif;
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --main-background-color: #4D5AE5;
+    --link-hover: #404BBF;
 
 }
 
@@ -8,19 +13,147 @@
 
 .link {
     text-decoration: none;
+
 }
 
 body {
-
+    font-family: var(--primary-font);
+    color: var(--text-color);
+    font-size: 16px;
 }
 
 /* ========== COMPONENTS ========== */
 
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: #2E2F42;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+}
+
+.logo span {
+    color: var(--main-background-color);
+}
+
+h2 {
+    color: var(--title-color);
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    word-wrap: break-word
+}
+
+h3 {
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.40px;
+}
+
+.text {
+    color: var(--text-color);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/* ========== /COMPONENTS ========== */
+
+/* ========== HEADER ========== */
+
+.header {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.menu-link a {
+    color: var(--title-color);
+    font-weight: 500;
+}
+
+.menu-link a:hover,
+.menu-link a:focus {
+    color: var(--link-hover);
+}
+
+.adress-link a {
+    color: var(--text-color);
+    font-style: normal;
+}
+
+.adress-link a:hover,
+.adress-link a:focus {
+    color: var(--link-hover);
+}
+/* ========== /HEADER ========== */
+
+/* ========== MAIN TITLE ========== */
+
+.head-title {
+    /* color: #fff; */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.head-btn {
+    color: #fff;
+    background-color: var(--main-background-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.head-btn:hover,
+.head-btn:focus {
+    cursor: pointer;
+    background-color: var(--link-hover);
+}
+/* ========== /MAIN TITLE ========== */
+
+/* ========== ABOUT ========== */
+/* ========== /ABOUT ========== */
 
 
+/* ========== WHAT ========== */
+/* ========== /WHAT ========== */
 
-/* font-family: 'IBM Plex Serif', serif;
-font-family: 'Raleway',
-sans-serif;
-font-family: 'Roboto',
-sans-serif; */
+
+/* ========== TEAM ========== */
+/* ========== /TEAM ========== */
+
+
+/* ========== FOOTER ========== */
+
+.footer-text {
+    color: #F4F4FD; 
+}
+
+/* ========== /FOOTER ========== */
+
+/* ========== PORTFOLIO ========== */
+
+.portfolio-btn {
+    color: var(--main-background-color);
+    background-color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    cursor: pointer;
+    background-color: var(--link-hover);
+    color: #fff;
+}
+/* ========== /PORTFOLIO ========== */
