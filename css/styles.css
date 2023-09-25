@@ -139,11 +139,11 @@ h3 {
 
 /* ========== TEAM ========== */
 
-.team {
+.section-team {
     background-color: #F4F4FD;
 }
 
-.team-main {
+.team-list {
     background-color: #fff;
 }
 
@@ -169,6 +169,7 @@ h3 {
 
 .portfolio-btn {
     color: var(--main-background-color);
+    font-family: var(--primary-font);
     background-color: #F4F4FD;
     font-size: 16px;
     font-weight: 500;
@@ -182,5 +183,13 @@ h3 {
     cursor: pointer;
     background-color: var(--link-hover);
     color: #fff;
+}
+
+.portfolio-title {
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 /* ========== /PORTFOLIO ========== */
