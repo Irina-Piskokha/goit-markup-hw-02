@@ -20,13 +20,19 @@ body {
     font-family: var(--primary-font);
     color: var(--text-color);
     font-size: 16px;
+    background-color: #fff;
 }
+
+address {
+    font-style: normal;
+}
+
 
 /* ========== COMPONENTS ========== */
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    color: #2E2F42;
+    color: var(--main-background-color);
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
@@ -34,8 +40,8 @@ body {
     letter-spacing: 0.54px;
 }
 
-.logo span {
-    color: var(--main-background-color);
+.header-logo-span {
+    color: var(--title-color);
 }
 
 h2 {
@@ -45,7 +51,7 @@ h2 {
     text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.72px;
-    word-wrap: break-word
+    text-align: center;
 }
 
 h3 {
@@ -83,7 +89,6 @@ h3 {
 
 .adress-link a {
     color: var(--text-color);
-    font-style: normal;
 }
 
 .adress-link a:hover,
@@ -94,12 +99,17 @@ h3 {
 
 /* ========== MAIN TITLE ========== */
 
+.head {
+    background-color: var(--title-color);
+}
+
 .head-title {
-    /* color: #fff; */
+    color: #fff; 
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 
 .head-btn {
@@ -109,6 +119,7 @@ h3 {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    font-family: var(--primary-font);
 }
 
 .head-btn:hover,
@@ -127,13 +138,29 @@ h3 {
 
 
 /* ========== TEAM ========== */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-main {
+    background-color: #fff;
+}
+
 /* ========== /TEAM ========== */
 
 
 /* ========== FOOTER ========== */
+.footer {
+    background-color: var(--title-color);
+}
 
 .footer-text {
     color: #F4F4FD; 
+}
+
+.footer-span-logo {
+    color: #F4F4FD;
 }
 
 /* ========== /FOOTER ========== */
